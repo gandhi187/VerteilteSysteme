@@ -11,7 +11,7 @@ class Thread_2 extends Thread {
 
 	private void Activity_2() {
 		System.out
-				.println("Activity_2 running; Active Threads: "+ 	currentThread().getThreadGroup().activeCount());
+				.println("Activity_2 running; Aktive Threads: "+ 	currentThread().getThreadGroup().activeCount());
 
 	}
 

@@ -10,7 +10,7 @@ public class Thread_4  extends Thread{
 	}
 
 	private void Activity_4() {
-		System.out.println("Activity_4 running; Active Threads: "+ 	currentThread().getThreadGroup().activeCount());
+		System.out.println("Activity_4 running; Aktive Threads: "+ 	currentThread().getThreadGroup().activeCount());
 
 	}
 

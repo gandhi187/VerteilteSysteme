@@ -18,7 +18,7 @@ class Thread_1 extends Thread {
 
 	public void run() {
 		Activity_1();
-		sems[0].release();;
+		sems[0].release();
 		sems[1].release();
 	}
 }
