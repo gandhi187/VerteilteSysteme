@@ -7,9 +7,9 @@ public class Main {
 
 		int a = 30;
 		int b = 10;
-		
-	calculate(30,10,counter);
-	
+
+		calculate(30, 10, counter);
+
 	}
 
 	public static long calculate(int a, int b, int counter) {
@@ -25,19 +25,11 @@ public class Main {
 		System.out.println(thread.ergebnis);
 		// System.out.println(thread.threadcounter);
 		System.out.println(counter);
-//		 System.out.println("Anzahl der Threads am Ende : " + Thread.currentThread().getThreadGroup().activeCount());
+		// System.out.println("Anzahl der Threads am Ende : " +
+		// Thread.currentThread().getThreadGroup().activeCount());
 
 		return (long) thread.ergebnis;
 
 	}
-
-	// Ausgangsformel
-	static long binCoeff(int n, int k) {
-		if (k == 0)
-			return 1;
-		else if (k > n)
-			return 0;
-		else
-			return (long)((double)n/k) * binCoeff(n-1, k-1); } 	
 
 }
