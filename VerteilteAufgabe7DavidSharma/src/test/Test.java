@@ -1,4 +1,7 @@
-package api;
+package test;
+
+import api.QueryInit;
+import api.Umfrage;
 
 public class Test {
 
@@ -6,6 +9,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		Umfrage u;
 		QueryInit qI = new QueryInit();
+		qI.reset();
 //		qI.speichern("Ja");
 //		qI.speichern("Ja");
 //		qI.speichern("Ja");
@@ -13,7 +17,7 @@ public class Test {
 //		 u = qI.ausgeben();
 //		System.out.println(u);
 //		qI.speichern("Ja");
-		qI.reset();
+		
 	}
 
 }
