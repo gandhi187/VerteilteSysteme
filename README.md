@@ -1,1 +1,1 @@
-# Übungsaufgaben in VerteilteSysteme WIB5 Prof. Amann 
+# Übungsaufgaben in Verteilte Systeme WIB5 Prof. Amann 
