@@ -1,1 +1,1 @@
-Aufgabe 7 without Frontend and with a second message queue for the answer messages 
+Aufgabe 7 ohne Frontend und mit zweiter Message Queue für die Antworten an den Abfrage-Client
